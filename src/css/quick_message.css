@@ -1,0 +1,60 @@
+	.quickmsg {
+		background: url("../img/bg_box.gif") repeat-y scroll 0 0;
+		float: left;
+		width: 210px;
+	}
+	.quickmsg-content {
+		float: left;
+		font-size: 12px;
+		padding: 0 11px 11px;
+	}
+	.quickmsg-content textarea {
+		padding: 5px;
+		width: 185px;
+		overflow: hidden;
+		wordWrap: break-word;
+		resize: horizontal;
+		height: 61px;
+	}
+	
+	.greyText textarea {
+		color: #aaa;
+	}
+	
+	.quickmsg-content input {
+	    float: right;
+	    margin-top: 5px;
+	}
+	.quickmsg-top {
+		background: url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1781px;
+		color: #a29142;
+		float: left;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 0 11px 5px;
+		width: 188px;
+		margin-top: 15px;
+	}
+	.quickmsg-top h3 {
+		background-color: #fff;
+		color: #a29142;
+		display: inline;
+		padding: 0 3px 0 0;
+		padding-left: 5px;
+		vertical-align: top;
+	}
+	.quickmsg-top img {
+		height: 23px;
+		margin-top: -3px;
+		width: 30px;
+	}
+	.quickmsg-footer {
+		background: url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1676px;
+		float: left;
+		font-size: 0;
+		height: 5px;
+		width: 210px;
+	}
+
+	
+	

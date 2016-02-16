@@ -1,0 +1,102 @@
+.mylit {
+    background: url("../img/bg_ma_box.gif") repeat-y scroll 0 0;
+    float: left;
+    margin-left: 0;
+    margin-top: 8px;
+    width: 258px;
+}
+
+.mylit .icon {
+    float: right;
+    padding-top: 18px;
+    width: 28px;
+}
+
+.mylit .text {
+    float: left;
+    width: 145px;
+}
+
+.mylit p {
+    color: #3babbc;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.mylit span.language {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mylit .off {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1236px;
+}
+
+.mylit-top {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1079px;
+    color: #3babbc;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 23px;
+    padding: 29px 18px 5px;
+    width: 222px;
+}
+
+.mylit-top span {
+    background-color: #fff;
+    padding: 0 3px 0 0;
+}
+
+.mylit-content {
+    float: left;
+    font-size: 12px;
+    padding: 0 3px 11px;
+}
+
+.mylit-footer { 
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -973px;
+    float: left;
+    font-size: 0;
+    height: 6px;
+    width: 258px;
+}
+
+.mylit1 {
+    padding: 0 15px;
+    width: 222px;
+}
+
+.mylit1-content {
+    border-bottom: 1px solid #98d3dc;
+    padding: 0 0 15px;
+    position: relative;
+    width: 222px;
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+
+.mylit1-content:hover {
+    background-color: #edf7f9;
+    color: #000;
+}
+
+.mylit .remove {
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    right: -2px;
+    top: 35px;
+    width: 16px;
+}
+
+.mylit .remove input {
+    background: transparent url("../img/remove.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    border: 0 none;
+    height: 16px;
+    width: 16px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Country Selector</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+  
+  <body>
+  	<ul>
+		<li class="coloumnItem">
+			<a onclick="sendCountrySelection('US','/us/en/homepage/homepage.html');return false;" href="#" class="flagimg_4">United States </a>	
+		</li>									
+		<li class="coloumnItem">
+			<a onclick="sendCountrySelection('DE','/de/de/homepage/homepage.html');return false;" href="#" class="flagimg_13">Germany (Deutschland)</a>	
+		</li>
+	</ul>
+  
+      
+    <script type='text/javascript'>
+    
+		function sendCountrySelection(countrySelection, url) {
+			var formData = "countrySelection="+countrySelection;
+			jQuery.ajax({
+				url : '/w/api/user_profile/country_selector',
+				type : "POST",
+				data : formData,
+				success : function(response) {
+					console.log("success");
+					window.open(url, '_parent', '');
+				},
+				error : function(e) {
+					console.log("error");
+				}
+			});
+		}
+	</script>
+</body>
+</html>

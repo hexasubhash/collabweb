@@ -1,0 +1,169 @@
+
+
+#login {
+    background:  url("../img/bg_login.png") no-repeat scroll 2px 0;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    left: 13px;
+    padding: 14px 14px 15px 13px;
+    top: 0;
+    width: 182px;
+}
+
+#login p {
+    margin: 0;
+    padding: 0 0 8px;
+
+}
+
+
+#login .white, #loggedin .white {
+    background:  url("../img/gif_sprite_2.gif") no-repeat scroll -22px 4px;
+    color: #fff;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#logintab, #welcometab {
+    background:  url("../img/bg_logintab.jpg") no-repeat scroll 0 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    height: 19px;
+    line-height: 17px;
+    overflow: hidden;
+    padding: 4px 0 0 13px;
+    right: 11px;
+    width: 196px;
+}
+
+#login .white, #loggedin .white, #login-fix .white {
+    padding-bottom: 7px;
+}
+
+#login .submit #login-button, #loggedin .submit #logout-button {
+    border: 0 none;
+    color: #fff;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+#loggedin {
+    background:  url("../img/bg_loggedin.jpg") no-repeat scroll left bottom;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 8px 14px 0 13px;
+    top: 0;
+    width: 182px;
+}
+
+#loggedin .memberArea {
+	height: 102px;
+}
+
+#loggedin .otherPages {
+	height: 68px;
+}
+
+
+#login .white:hover {
+    text-decoration: underline;
+}
+
+#content a:hover, a:hover, #allLink a:hover, #service a:hover, #left-col a:hover, #right-col a:hover, #content-home a:hover, #right-col a.white:hover, a.camera:hover, p.print:hover, a.top:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#login .clearer {
+    padding-bottom: 10px;
+}
+
+#login .whiteLine, #loggedin .whiteLine {
+    border-bottom: 1px solid #fff;
+    width: 180px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.inlineStyle {
+	display: inline;
+}
+
+#login .input-wrapper {
+    float: left;
+    height: 21px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+
+
+input.loginfield {
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+#login label {
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 0 0;
+}
+#login .input-wrapper span {
+    color: #999;
+    padding-left: 5px;
+    position: absolute;
+    top: 4px;
+    z-index: 5;
+}
+
+#loginWidget {
+	font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+#loginWidget .name {
+	margin: 0;
+}
+
+#loginWidget .bold {
+	font-weight: 700;
+}
+
+#loggedin .maring-bottom8 {
+	margin-bottom: 8px; 
+}
+
+#login .submit, #loggedin .submit {
+    background:  url("../img/gif_sprite_2.gif") no-repeat scroll -22px 6px;
+}
+
+#loginWidget .severity0 {
+    background:  url("../img/message-24-ok.png") no-repeat scroll 7px center;
+    border: 1px solid #be7;
+    color: #fff;
+    padding-left: 33px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+
+#loginWidget .severity2 {
+    background: url("../img/message-24-error.png") no-repeat scroll 7px center;
+    border: 1px solid #ed541d;
+    color: #fff;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    width: 133px;
+    height: 25px;
+    padding-top: 5px;
+}

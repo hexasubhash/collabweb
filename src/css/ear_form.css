@@ -1,0 +1,165 @@
+.earForm .form-grp-halfsize {
+	 float: left;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.earForm label {
+	color: #3fadbe;
+	font-size: 15px;
+	padding: 0;
+	width: 25%;
+	float: left;
+	margin-top: 5px;
+	font-size: 12px;
+	margin-right: 15px;
+}
+
+
+
+.earForm h3 {
+    float: left;
+    margin: 15px 0;
+    width: 100%;
+    color: #33a8ba;
+}
+
+.earForm .form-grp .longversion {
+    width: 81%;
+}
+
+.earForm .form-grp .textarea {
+    border-right: 1px solid #c9c9c9;
+    width: 81.5%;
+    height: 89px;
+}
+
+.earForm .form-grp {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.earForm .form-grp label {
+    width: 12%;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.earForm {
+	width: 515px;
+}
+
+
+.earForm .form-grp-wrapper .form-grp-halfsize .xsversion {
+    width: 99px;
+}
+
+.earForm .form-grp-halfsize input {
+	width: 155px;	
+}
+
+.earForm .form-grp-wrapper .form-grp-halfsize {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    width: 215px;
+}
+
+
+.earForm .form-grp-xs .xsversion {
+    width: 65%;
+}
+
+.earForm .form-grp-wrapper .form-grp-xs {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 25.5%;
+}
+
+.earForm .form-grp-wrapper {
+    float: left;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.earForm .form-grp-wrapper label {
+    margin-right: 0;
+    width: 12%;
+}
+
+.earForm .form-grp-wrapper .form-grp-xs label {
+    margin-right: 5px;
+    width: 25%;
+}
+
+.earForm .form-grp-check .check-wrapper, #contact .form-grp-check .check-wrapper {
+    float: left;
+    margin-bottom: 10px;
+    width: 85px;
+}
+
+
+.earForm .form-grp-wrapper .form-grp-check, #contact .form-grp-wrapper .form-grp-check {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    width: 82%;
+}
+
+
+
+.earForm .form-grp-check .check-wrapper label, #contact .form-grp-check .check-wrapper label {
+    margin-top: 2px;
+    width: 40px;
+}
+
+
+.earForm .form-grp-wrapper .form-grp-xxs {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    width: 85px;
+}
+
+.earForm .form-grp-wrapper .form-grp-xxs label {
+    margin-right: 5px;
+    width: 35px;
+}
+
+
+.earForm .form-grp-wrapper .form-grp-xxs .xxsversion {
+    width: 30px;
+}
+
+
+.earForm .form-grp-wrapper .form-grp-halfsize label {
+    width: 100px;
+}
+
+
+.earForm .label-wrapper {
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.earForm .label-wrapper label.halfsize {
+    margin-right: 0;
+    width: 219px;
+}
+
+
+.earForm .form-grp-buttons, .earForm .form-grp-buttons {
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+}
+
+
+.earForm .form-grp-buttons input {
+    float: right;
+    margin-left: 15px;
+}
+

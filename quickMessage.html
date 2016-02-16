@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>React Quick Message!</title>
+    <link rel="stylesheet" href="dist/wwidgets.css"/>
+</head>
+  <body>
+  	<table>
+  		<tr>
+  			<td><div id="toolbox1"></div></td>
+        <td><div id="msg1"></div></td>
+  		</tr>
+  	</table>
+    
+    <!--[if lt IE 9]>
+      <script src="dist/wlibs-ie.js"></script>
+    <![endif]-->
+
+    <script src="dist/wlibs.js"></script>
+    <script src="dist/wwidgets.js"></script>
+    <script type="text/javascript" src="jsons/en.json"></script>
+    <script type="text/javascript">
+      var widgets = require('widgets');
+	  var quickmessage = widgets.quickmessage;
+	  quickmessage.render("msg1", qmessageData[0]);
+      quickmessage.render("msg2", qmessageData[1]);
+    </script>
+</body>
+</html>

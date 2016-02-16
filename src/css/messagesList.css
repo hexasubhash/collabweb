@@ -1,0 +1,184 @@
+.widgetList {
+	font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+.widgetList .hidediv {
+	background: transparent url("../img/remove.png");
+	cursor: pointer;
+	border: 2px;
+	height: 16px;
+	width: 16px;
+	float: left;
+	margin: 5px;	
+	visibility:hidden;
+}
+.widgetList. .detailMsgList {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.widgetList. .messageList {
+	border-bottom: 1px solid #a29142;
+}
+
+.widgetList .messagesList-footer {
+	background: url("../img/gif_sprite_1.gif") no-repeat
+	scroll 0 -1676px;
+	float: left;
+	font-size: 0;
+	height: 5px;
+	width: 210px;
+}
+
+
+.widgetList .removeList12 {
+	float: right;
+    height: 14px;
+    margin: 10px 10px 0 0;
+    width: 14px;
+}
+
+.widgetList .messageList-title-text {
+	background-color: #fff;
+	padding-left: 0;
+	padding-right: 5px;
+	color: #a29142;
+	text-shadow: none;
+	padding-left: 0;
+	padding-right: 5px;
+	width: 525px;
+}
+
+.widgetList .paddingLeft30 {
+	padding-left: 30px;
+	
+}
+
+.widgetList .blue {
+	background-color: #ecf7f8;
+}
+
+.widgetList .h1List {
+	color: #a29142;
+	font-size: 19px;
+	margin-bottom: 12px;
+	padding-left: 25px;
+}
+
+.widgetList .messagesList-header {
+	color: #3babbc;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 2px;
+	align:left;
+	padding: 10px 0 10px 25px;
+}
+
+.widgetList .header {
+	height: 35px;
+}
+
+.widgetList .borderDown {
+	border-bottom:1px solid #91cfd9;
+}
+
+.widgetList .borderUp {
+	border-top:1px solid #91cfd9;
+}
+
+.widgetList .messageList-head {
+	cursor: pointer;
+	float: left;
+	margin-left: 12px;
+	width: 88px;
+	float: left;
+	margin: 0;
+}
+
+.widgetList .messageList-content {
+	background-color: #fff;
+	border: 1px solid #c3c3c3;
+	clear: both;
+	color: #333;
+	height: 270px;
+	overflow: auto;
+	padding: 3px;
+	margin-bottom:14px;
+	width: 514px;
+	float: left;
+	font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+.widgetList .messageList-delete-custom {
+	float: right;
+	height: 14px;
+	margin: 10px 10px 0 0;
+	width: 14px;
+}
+
+.widgetList .removeList {
+	background: transparent url("../img/remove.png");
+	cursor: pointer;
+	border: 2px;
+	height: 16px;
+	width: 16px;
+	float: right;
+	margin-right: 2px;
+}
+
+.widgetList {
+	font: 90%/1.6em Arial, Helvetica, Verdana, sans-serif;
+}
+
+.widgetList .head {
+	float: left;
+	margin: 5px;
+	position: absolute;
+}
+
+.widgetList .colContainer {
+	float: left;
+	margin: 10px;
+	color:#3babbc;
+	width: 370;
+	font-weight: 700;
+	font-size: 13px;
+	height: 16px;
+}
+
+.widgetList .arrowUp {
+	background: url("../img/bg_arrowbluedown.gif") no-repeat scroll right 6px;
+	width: 390px;
+}
+
+.widgetList .arrowDown {
+	background: url("../img/bg_arrowblueup.gif") no-repeat scroll right 6px;
+	width: 390px;
+}
+
+.widgetList .colContainer1 {
+	float: right;
+	margin: 10px;
+	
+	margin-right:0px;
+	color:#3babbc;
+}
+
+
+/**
+Styling for Message and Delete content
+***/
+.widgetList .msgRow {
+	clear: both;
+	cursor: pointer;
+	height: 35px;
+}
+
+.widgetList .clearFix {
+	clear: both;
+}
+
+.widgetList .messgListspacer{
+	height: 50px;
+	padding-top: 20px;
+}

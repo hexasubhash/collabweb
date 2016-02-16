@@ -1,0 +1,143 @@
+
+#user-profile .doubleform {
+    float: left;
+    margin-bottom: 10px;
+    width: 479px;
+    height: 70px;
+}
+
+#user-profile .doubleform .form-grp {
+    margin-bottom: 0;
+    width: 232px;
+}
+
+#user-profile .doubleform .separator {
+    float: left;
+    height: 40px;
+    width: 14px;
+}
+
+#user-profile .form-grp label {
+    float: left;
+}
+
+#user-profile label {
+    color: #3fadbe;
+    font-size: 12px;
+    margin: 0 15px 0 0;
+    padding: 0;
+     font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+#user-profile {
+ 	color: #333;
+    font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+
+#user-profile input.shortversion {
+    margin-top: 5px;
+    width: 223px;
+}
+
+#user-profile .form-grp-halfsize input, #user-profile .form-grp input, .form-grp textarea {
+    font-size: 12px;
+    float: left;
+}
+
+
+#user-profile input.longversion {
+    margin-top: 5px;
+    width: 469px;
+}
+
+#user-profile .form-grp {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#user-profile {
+	width: 515px;
+}
+
+#user-profile h1 {
+    color: #a29142;
+    font-size: 19px;
+    margin-bottom: 12px;
+    padding: 0 0 0 12px;
+}
+
+#user-profile h2, #user-profile h3 {
+    color: #33a8ba;
+    font-size: 15px;
+    margin-bottom: 8px;
+    padding: 0 0 0 12px;
+}
+
+#user-profile .clearer {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+	
+}
+
+#user-profile .change-pw .arrow {
+    background: transparent url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1238px;
+    color: #3fadbe;
+    cursor: pointer;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#user-profile .change-pw {
+    margin-bottom: 15px;
+    width: 510px;
+}
+
+#user-profile .closed {
+    display: none;
+    float: left;
+    margin-top: 15px;
+}
+
+#user-profile .sepblue {
+    border-bottom: 1px solid #98d3dc;
+    clear: both;
+    margin: 0 0 35px -10px;
+}
+
+#user-profile .mandatory {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#user-profile .textarea {
+    color: #000;
+    display: inline;
+    float: left;
+    font-family: Arial,Tahoma,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 89px;
+    margin: 3px 0 0;
+    padding: 0;
+    width: 479px;
+    margin-bottom: 15px;
+}
+
+#user-profile label.checkbox-label, #user-profile label.radio-label {
+    color: #666;
+    font-size: 12px;
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+
+#user-profile .form-error {
+    border: 1px solid red!important;
+}
+
+

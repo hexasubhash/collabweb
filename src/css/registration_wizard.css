@@ -1,0 +1,220 @@
+
+#wizard {
+	text-align: left;
+	width: 515px;
+	font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+
+#wizard h1 {
+    color: #a29142;
+    font-size: 19px;
+    margin-bottom: 12px;
+    padding: 0 0 0 12px;
+}
+
+
+#wizard .form-grp {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+#wizard input.longversion {
+    margin-top: 5px;
+    width: 469px;
+}
+
+#wizard label {
+    color: #3fadbe;
+    font-size: 12px;
+    margin: 0 15px 0 0;
+    padding: 0;
+    
+    width: 68px;
+}
+
+#wizard .form-grp-buttons, #ear .form-grp-buttons {
+    float: left;
+    margin: 10px 0;
+    width: 93%;
+}
+
+
+#wizard .doubleform {
+    float: left;
+    margin-bottom: 10px;
+    width: 479px;
+}
+
+
+#wizard .doubleform .form-grp {
+    margin-bottom: 0;
+    width: 232px;
+}
+
+#wizard input.longversion {
+    margin-top: 5px;
+    width: 469px;
+}
+
+#wizard select.longversion {
+    margin-top: 5px;
+    width: 293px;
+}
+
+#wizard select.shortversion {
+    margin-top: 5px;
+    width: 100px;
+}
+
+#wizard .mandatory {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+#wizard .form-paragraph {
+    margin-bottom: 15px;
+}
+
+
+#wizard #steps {
+    height: 55px;
+}
+#wizard #step1, #wizard #step2, #wizard #step3, #wizard #step4 {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#wizard #step1 {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1746px;
+    width: 131px;
+}
+#wizard #step1.active {
+    background-position: -570px -1846px;
+    color: #3fadbe;
+}
+#wizard #step2 {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -701px -1746px;
+    width: 133px;
+}
+#wizard #step2.active {
+    background-position: -701px -1846px;
+    color: #3fadbe;
+}
+#wizard #step3 {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -834px -1746px;
+    width: 135px;
+}
+#wizard #step3.active {
+    background-position: -834px -1846px;
+    color: #3fadbe;
+}
+#wizard #step4 {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -969px -1746px;
+    width: 120px;
+}
+#wizard #step4.active {
+    background-position: -969px -1846px;
+    color: #3fadbe;
+}
+
+#wizard input.shortversion {
+    margin-top: 5px;
+    width: 223px;
+}
+#wizard .form-grp-halfsize input, #wizard .form-grp input, .#wizard form-grp textarea {
+    font-size: 12px;
+}
+
+#wizard .doubleform .separator {
+    float: left;
+    height: 40px;
+    width: 14px;
+}
+#wizard .doubleform .separator {
+    border: medium none;
+}
+
+#wizard #id_country, #wizard #id_region {
+    width: 300px;
+}
+
+#wizard label.checkbox-label, #wizard label.radio-label {
+    color: #666;
+    font-size: 12px;
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+
+
+#wizard #page1, #wizard #page2,  #wizard #page3{
+	padding-bottom: 120px;
+}
+
+#registerFormP3 {
+	height: 150px;
+}
+
+#wizard .form-grp-halfsize input {
+    width: 149px;
+}
+
+#wizard .form-grp-halfsize, #ear .form-grp-halfsize {
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#wizard .form-grp-buttons input, #ear .form-grp-buttons input {
+	margin-left: 47px;
+}
+
+#wizard .form-error {
+    border: 1px solid red !important;
+}
+
+#wizard .radio-div {
+    height: 15px;
+    margin-top: 5px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    width: 15px;
+    float: left;
+}
+
+#wizard .radio-label {
+	width: 120px;
+}
+
+#wizard .radio-label-long {
+	width: 120px;
+	float: left;
+}
+
+#wizard .radio-label-short {
+	width: 40px;
+	float: left;
+}
+
+#wizard .radio-label-short label {
+	color: #666;
+}
+
+#wizard .hidden {
+	display: none;
+}
+
+#wizard .checkbox-div {
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
+}
+

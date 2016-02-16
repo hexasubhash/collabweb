@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hello React!</title>
+
+    <!--[if lt IE 9]>
+      <script src="dist/wlibs-ie.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="dist/wwidgets.css"/>
+    <script src="dist/wwidgets.js"></script>
+    <script src="dist/wlibs.js"></script>
+    <script type="text/javascript" src="jsons/labels.js"></script>
+    <script type="text/javascript" src="jsons/applications_en.js"></script>
+    <style>
+    	.line {float: left;	padding-left: 50px;}
+    	.clear {clear:both;}
+    	.form {width: 600px; float: left;}
+		.padding50 {padding-top: 50px;}
+		.formArea {width: 600px; float: left;}
+    </style>
+  </head>
+
+  <body>
+		<!-- <div class="line wwidget" data-wwidget-type="loginForm"></div> -->
+		<!-- <div class="formArea wwidget" data-wwidget-type="registrationWizard"></div> -->
+    <div class="formArea wwidget" data-wwidget-type="testTable"></div>
+	<!-- <div class="line wwidget" data-wwidget-type="toolbox"></div>
+	<div class="line wwidget" data-wwidget-type="myTools"></div>
+	<div class="line">
+	  <div>
+	  	<a href="/w/api/literature/addDocumentToUser?documentId=3234029">Add literature - test1</a><br/>
+	  	<a href="/w/api/literature/addDocumentToUser?documentId=5653772">Add literature - test2</a><br/>
+	  	<a href="/w/api/literature/addDocumentToUser?documentId=7707">Add literature - test3</a>
+	  </div>
+		<div id="myLiteratureContainer" class="wwidget" data-wwidget-type="myLiterature" ></div>
+	</div>
+	<div class="line">
+		<div class="wwidget" style="margin-bottom: 30px;" data-wwidget-type="sscTerms"></div>
+		<div class="wwidget" style="margin-bottom: 30px;" data-wwidget-type="quickMessage"></div>
+		<div class="wwidget" data-wwidget-type="messages"></div>
+	</div>
+	<div class="line wwidget" data-wwidget-type="myProjects"></div>
+	<div class="line wwidget" data-wwidget-type="messageList"></div>
+	<div class="line wwidget" data-wwidget-type="passwordForgot"></div>
+	<div class="line wwidget" data-wwidget-type="passwordUpdate"></div>
+
+
+	<div class="padding50 clear">
+		<div class="formArea wwidget" data-wwidget-type="userProfileForm"></div>
+		<div class="formArea wwidget" data-wwidget-type="contactForm"></div>
+		<div class="formArea wwidget" data-wwidget-type="registrationWizard"></div>
+	</div>
+
+	<div class="padding50 clear">
+		<div class="formArea wwidget" data-wwidget-type="earForm"></div>
+	</div> -->
+
+
+    <script type="text/javascript">
+		var App = require('widgets').App;
+		// labels variable comes from labels.json
+		var app = new App(labels, ".wwidget");
+		app.display();
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.sscTerms .active {
+	color: #3fadbe;
+	text-decoration: none;
+}
+
+.sscTerms .inactive {
+	color: #999;
+	text-decoration: none;
+}
+
+.sscTerms .checkbox-label {
+	color: #666;
+}

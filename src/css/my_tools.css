@@ -1,0 +1,139 @@
+.my_tools {
+    background:  url("../img/bg_ma_box.gif") repeat-y scroll 0 0;
+    float: left;
+    margin-left: 0;
+    margin-top: 8px;
+    width: 258px;
+}
+
+.my_tools-content {
+    float: left;
+    font-size: 12px;
+    padding: 0 3px 11px;
+}
+
+.my_tools1 {
+    padding: 0 15px;
+    width: 222px;
+}
+
+.my_tools1-content {
+    border-bottom: 1px solid #98d3dc;
+    padding: 10px 0 15px;
+    position: relative;
+    width: 222px;
+}
+
+.my_tools1 img {
+	width: 73px;
+	height: 34px;
+}
+
+.my_tools a.arrow {
+    background:  url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1238px;
+    display: block;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #3babbc;
+}
+
+.my_tools-top {
+    background:  url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1079px;
+    color: #3babbc;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 23px;
+    padding: 29px 18px 5px;
+    width: 222px;
+}
+
+.my_tools-top span {
+    background-color: #fff;
+    padding: 0 3px 0 0;
+}
+
+.my_tools .off {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1236px;
+}
+
+.my_tools1 .text {
+    float: left;
+    width: 145px;
+}
+
+.my_tools1 .bold a {
+    font-weight: 700;
+}
+
+.my_tools1 .icon {
+    float: right;
+    padding-top: 6px;
+    width: 28px;
+}
+
+.my_tools1 span.language {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.my_tools1 .th {
+    background: url("../img/bg_ma_th.png") no-repeat scroll 0 0;
+    float: left;
+    height: 39px;
+    padding-left: 2px;
+    width: 75px;
+}
+
+.my_tools1 .head {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll 212px -597px;
+    cursor: pointer;
+    float: left;
+    width: 220px;
+}
+
+.my_tools1 .body {
+    float: left;
+    font-weight: 400;
+    width: 220px;
+}
+
+.my_tools-footer {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -973px;
+    float: left;
+    font-size: 0;
+    height: 6px;
+    width: 258px;
+}
+
+.my_tools1 a:hover {
+	text-decoration: underline;
+}
+
+.my_tools1:hover {
+    background-color: #edf7f9;
+}
+
+.my_tools1 .bold a {
+    font-weight: 700;
+}
+
+.my_tools .remove {
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    right: -2px;
+    top: 35px;
+    width: 16px;
+}
+
+.my_tools .remove input {
+    background: transparent url("../img/remove.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    border: 0 none;
+    height: 16px;
+    width: 16px;
+}
+
+

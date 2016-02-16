@@ -1,0 +1,114 @@
+.widget {
+    background-color: #fff;
+    font: 62.5%/1.6em Arial,Helvetica,Verdana,sans-serif;
+}
+.widget .wfade-enter {
+  opacity: 0.01;
+  -webkit-transition: opacity 0.6s ease-in;
+          transition: opacity 0.6s ease-in;
+}
+.widget .wfade-enter.wfade-enter-active {
+  opacity: 1;
+}
+.widget .wfade-leave {
+  opacity: 1;
+  -webkit-transition: opacity 0.6s ease-out;
+          transition: opacity 0.6s ease-out;
+}
+.widget .wfade-leave.wfade-leave-active {
+  opacity: 0.01;
+}
+
+
+
+.widget .accordion-enter {
+      height: 0px;
+      -webkit-transition: height 0.6s ease-in;
+      		  transition: height 0.6s ease-in;  
+}
+.widget .accordion-enter.accordion-enter-active {
+     height: 162px;
+}
+.widget .accordion-enter.accordion-enter-active p{
+     opacity: 0;
+}
+.widget .accordion-leave p{
+     opacity: 0;
+}
+.widget .accordion-leave {
+   height: 162px;
+   -webkit-transition: height 0.6s ease-in;
+      		transition: height 0.6s ease-in;
+}
+
+
+
+.widget .accordionmessage-enter {
+      height: 0px;
+      -webkit-transition: height 0.6s ease-in;
+      		  transition: height 0.6s ease-in;  
+}
+.widget .accordionmessage-enter.accordionmessage-enter-active {
+     height: 320px;
+}
+.widget .accordionmessage-enter.accordionmessage-enter-active p{
+     opacity: 0;
+}
+.widget .accordionmessage-leave p{
+     opacity: 0;
+}
+.widget .accordionmessage-leave {
+   height: 320px;
+   -webkit-transition: height 0.6s ease-in;
+      		transition: height 0.6s ease-in;
+}
+.widget .accordionmessage-leave.accordionmessage-leave-active {
+   height: 0px;
+}
+
+
+
+.widget .accordion-leave.accordion-leave-active {
+   height: 0px;
+}
+
+
+.widget .clearBoth {
+	clear: both;
+}
+
+.widget a:link, .widget a:visited, .widget a:hover, .widget a:active, .widget a:focus {
+    color: #3fadbe;
+    text-decoration: none;
+}
+
+.widget img, .widget a img {
+	border: 0 none;
+}
+
+.widget input[type="button"], .widget input[type="submit"], .widget input[type="reset"] {
+    overflow: visible;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.widget .portlet-msg-error {
+    background: #fdd url("../img/error.png") no-repeat scroll 6px 50%;
+    border: 1px solid #f00;
+    display: block;
+    font-weight: bold;
+    margin: 2px auto 14px;
+    padding: 6px 6px 6px 30px;
+    text-align: left;
+}
+
+.widget .portlet-msg-success {
+    background: #f4fdef url("../img/success.png") no-repeat scroll 6px 50%;
+    border: 1px solid #acdfa7;
+    color: #384f34;
+    display: block;
+    font-weight: bold;
+    margin: 2px auto 14px;
+    padding: 6px 6px 6px 30px;
+    text-align: left;
+}

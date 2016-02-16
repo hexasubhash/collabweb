@@ -1,0 +1,146 @@
+.myproj {
+    background: url("../img/bg_ma_box.gif") repeat-y scroll 0 0;
+    float: left;
+    margin-left: 0;
+    margin-top: 8px;
+    width: 258px;
+    cursor: pointer;
+}
+
+.myproj .icon {
+    float: right;
+    padding-top: 18px;
+    width: 28px;
+}
+
+.myproj .text {
+    float: left;
+    width: 145px;
+}
+
+.myproj1 {
+    padding: 0 15px;
+    width: 222px;
+}
+
+.myproj1-content {
+    border-bottom: 1px solid #98d3dc;
+    padding: 10px 0 15px;
+    position: relative;
+    width: 222px;
+}
+
+.myproj p {
+    color: #3babbc;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.myproj span.language {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.myproj .off {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1236px;
+}
+
+.myproj-top {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1079px;
+    color: #3babbc;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 23px;
+    padding: 29px 18px 5px;
+    width: 222px;
+}
+
+.myproj-top span {
+    background-color: #fff;
+    padding: 0 3px 0 0;
+}
+
+.myproj1-content span {
+	color: #666;
+}
+
+.myproj-content {
+    float: left;
+    font-size: 12px;
+    padding: 0 3px 11px;
+}
+
+.myproj-content {
+    float: left;
+    font-size: 12px;
+    padding: 0 3px 11px;
+}
+
+.myproj-footer { 
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -973px;
+    float: left;
+    font-size: 0;
+    height: 6px;
+    width: 258px;
+}
+
+.myproj1 {
+    padding: 0 15px;
+    width: 222px;
+}
+
+.myproj1-content {
+    border-bottom: 1px solid #98d3dc;
+    padding: 0 0 15px;
+    position: relative;
+    width: 222px;
+    float: left;
+    font-size: 12px;
+}
+
+
+.myproj1 .body {
+    float: left;
+    font-weight: 400;
+    width: 220px;
+}
+
+.myproj1 .remarks {
+    color: #333;
+    margin: 2px 0 7px;
+    overflow: auto;
+    padding: 3px;
+    width: 214px;
+}
+
+.myproj .head.open {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll 212px -697px;
+}
+
+
+.myproj .head {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll 212px -597px;
+}
+
+.myproj1 .remarks p {
+    color: #333;
+    font-weight: normal;
+}
+
+.myproj a.arrow {
+   background: url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1238px;
+    display: block;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.myproj .remove input {
+    background: transparent url("../img/remove.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    border: 0 none;
+    height: 16px;
+    width: 16px;
+}

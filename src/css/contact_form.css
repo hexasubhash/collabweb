@@ -1,0 +1,164 @@
+.form-grp {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form#contact {
+    width: 520px;
+}
+
+#contact .contact-msg {
+    margin-bottom: 15px;
+}
+
+#contact .form-grp-halfsize, #ear .form-grp-halfsize {
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#contact {
+	color: #333;
+    font: 13px Arial,Verdana,Helvetica,sans-serif;
+    text-align: left;
+}
+
+#contact .form-grp .radio {
+    margin-top: 5px;
+    width: 15px;
+    float: left;
+}
+
+#contact .form-grp label {
+    width: 67px;
+}
+
+#contact label {
+    float: left;
+    margin-top: 5px;
+    width: 68px;
+    color: #3fadbe;
+    font-size: 12px;
+    margin: 0 15px 0 0;
+    padding: 0;
+    font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+
+#contact label.radio-label {
+    padding-left: 7px;
+    padding-top: 3px;
+}
+
+.border {
+	border-style: dotted;
+	border-width: 1px;
+	border-color: green;
+}
+
+#contact .form-grp input {
+    width: 410px;
+}
+
+input.longversion {
+    margin-top: 5px;
+}
+
+#contact .form-grp label {
+    width: 68px;
+}
+
+#contact .form-grp-halfsize input {
+    width: 149px;
+}
+
+.form-grp-halfsize input, .form-grp input, .form-grp textarea {
+    font-size: 12px;
+}
+
+#contact .form-grp select, #contact .form-grp textarea {
+    width: 416px;
+}
+
+#contact .form-grp .textarea {   
+    width: 79%;
+    color: #000;
+    display: inline;
+    float: left;
+    font-family: Arial,Tahoma,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 89px;
+    margin: 3px 0 0;
+    padding: 0;
+    border-right: 1px solid #c9c9c9;
+}
+
+
+#contact .form-grp-buttons, #ear .form-grp-buttons {
+    float: left;
+    margin: 10px 0;
+    width: 93%;
+}
+#contact .form-grp-buttons input, #ear .form-grp-buttons input {
+    margin-left: 80px;
+}
+
+input.captcha-regenerate {
+	width: 153px;
+}
+
+#contact a:link, #contact a:visited, #contact a:hover, #contact a:active, #contact a:focus {
+    color: #3fadbe;
+    text-decoration: none;
+}
+
+form-grp {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.captcha-regenerate {
+	width: 159px!important;
+}
+
+#contact .form-error {
+    border: 1px solid red!important;
+}
+
+form input.form-error, form select.form-error, form textarea.form-error {
+    border: 1px solid red;
+}
+
+#contact .submit-button {
+	width: 153px;
+	float: right;
+}
+
+
+#contact .captchaImage {
+	width: 150px;
+	height: 50px;
+}
+
+#contact .invisible {
+	display: none;
+}
+
+#contact .radio-div {
+    float: left;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+#contact .checkbox-div {
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
+}

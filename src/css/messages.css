@@ -1,0 +1,101 @@
+.messages {
+	background: url("../img/bg_box.gif") repeat-y scroll 0 0;
+    float: left;
+    margin-top: 15px;
+    width: 210px;
+	font: 13px Arial,Verdana,Helvetica,sans-serif;
+}
+.messages-top {
+	background: url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1781px;
+	color: #a29142;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 0 11px 5px;
+	width: 188px;
+	margin-top: 15px;
+}
+.messages-top h3 {
+	background-color: #fff;
+	color: #a29142;
+	display: inline;
+	padding: 0 3px 0 0;
+	padding-left: 5px;
+	vertical-align: top;
+}
+.messages-footer {
+	background: url("../img/gif_sprite_1.gif") no-repeat scroll 0 -1676px;
+	float: left;
+	font-size: 0;
+	height: 5px;
+	width: 210px;
+}
+.message-title-text {
+	 background-color: #fff;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.message-title {
+	 color: #a29142;
+    padding-left: 0;
+    text-shadow: none;
+}
+
+.messages-nr {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -1393px;
+    height: 33px;
+    width: 46px;
+    float: left;
+    margin: 3px 3px 5px 12px;
+}
+
+.messages-nr p {
+    color: #fff;
+    font-weight: 700;
+    padding: 0 0 0 26px;
+    text-align: center;
+    width: 20px;
+}
+
+.messages-nr-txt {
+    float: left;
+    padding: 17px 0 0 3px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.messages .short-message {
+    border-bottom: 1px solid #a29142;
+    font-weight: 700;
+    margin-bottom: 4px;
+    padding: 0 0 5px 12px;
+    width: 188px;
+}
+
+.short-message a:link, .short-message a:visited, .short-message a:active, .short-message a:focus {
+    color: #000;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.messages a.arrow {
+    background: url("../img/gif_sprite_1.gif") no-repeat scroll -570px -452px;
+    color: black;
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.message-footer {
+	 background: transparent url(../img/box_footer.gif") no-repeat scroll left top;
+    height: 5px;
+}
+
+.message-name {
+	padding-left: 10px;
+}
+

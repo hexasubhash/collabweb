@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Toolbox</title>
+    <link rel="stylesheet" href="http://static.tss-dev.de/remotemedia/media/_technik/css/screen.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="dist/wwidgets.css"/>
+
+</head>
+  <body>
+  	<table>
+  		<tr>
+  			<td><div id="toolbox1"></div></td>
+        <td><div id="msg1"></div></td>
+  		</tr>
+  	</table>
+    
+    <!--[if lt IE 9]>
+      <script src="dist/wlibs-ie.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="jsons/labels.js"></script>
+    <script type="text/javascript" src="jsons/applications_en.js"></script>
+    <script src="dist/wlibs.js"></script>
+    <script src="dist/wwidgets.js"></script>
+    <script type="text/javascript">
+    var App = require('widgets').App;
+    var config = {
+      toolbox : 'toolbox1', 
+    };
+
+    // labels variable comes from labels.json
+    var app = new App(labels, config);
+    app.render();
+    </script>
+</body>
+</html>
